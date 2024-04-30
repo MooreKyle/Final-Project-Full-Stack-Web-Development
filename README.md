@@ -43,13 +43,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories in GIF format:
 
-<img src='https://imgur.com/a/FKzITZM' title='Video Walkthrough' width='' alt='Video Walkthrough' /> [UPDATED!]
+<img src='https://imgur.com/a/FKzITZM' title='GIF Walkthrough' width='' alt='GIF Walkthrough' /> [UPDATED!]
 
 ![Final Project (compressed)](https://github.com/MooreKyle/Final-Project-Full-Stack-Web-Development/assets/49001825/1780abe8-b813-4dbb-81ce-2989b2c65aba)
 
 GIF created with ScreenToGif
 
-## Video Walkthrough (3 Minutes) & Code Outline [UPDATED!] 
+## Video Walkthrough & Code Outline [UPDATED!] 
 
 Video File is in this project's root folder and can also be found at the following hosting link below:
     https://drive.google.com/file/d/1d8TBHs8AaegO_r1IvzPkonBRlCIAnwg3/view?usp=sharing
@@ -62,16 +62,21 @@ Access the live application here: [HobbyHub - Technology](https://techtalkforums
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+- **Testing and Debugging:** Extensive testing was conducted to ensure all features and assets functioned correctly. This involved systematic testing during feature implementation to resolve issues promptly and integrate new features effectively.
 
-- Testing and debugging was a major process to ensure all features and assets were working as intended.
-    - Involved systematically testing application during implementation of a feature to promptly resolve issues and integrate new features, especially ones dependent on or associative to others.
+- **Comments Feature Integration Challenges:**
+  - Initial challenges in setting up the comment feature were largely due to integrating with the Supabase backend.
+  - The setup required careful handling of data fetching and rendering to ensure comments appeared under posts as intended.
+  - Error handling was crucial during comment retrieval and submission, taking substantial time to troubleshoot various issues.
+  - Ensured comments were displayed immediately after submission, although real-time updates were not implemented due to the project's scope.
+  - Integration of comment deletion raised issues related to user authentication and data consistency, which were systematically addressed to ensure a smooth user experience.
 
-- Initially encountered challenges setting up comment feature for posts due to integration with the Supabase backend.
-    - Initial setup, including implementing the functionality to display comments under each post required careful consideration of data fetching and rendering.
-    - Error handling during comment retrieval or submission was crucial for ensuring a smooth user experience. Took time to troubleshoot and diagnose various error messages encountered.
-    - Ensured that comments were displayed promptly and properly after submission, despite real-time updates not being implemented.
-    - Comment deletion was integrated with issues relating to user authentication and data consistency
+- **Analytical Thinking and Problem Solving:**
+  - Throughout this project, I honed my analytical thinking and problem-solving skills significantly. By diagnosing error messages and debugging real-time issues, I learned to identify the underlying causes of bugs effectively. This process involved assessing the integration of various features, understanding how independent components interact within a larger system, and adjusting their interactions for optimal functionality.
+  - Specifically, integrating the comment functionality challenged me to manage asynchronous operations and state updates efficiently, providing valuable insights into handling user interactions and data consistency in web applications.
+  - This experience has not only improved my technical skills but also enhanced my ability to anticipate potential issues and implement more robust solutions.
+
+This project not only enhanced my technical skills but also improved my ability to debug complex applications and understand user interaction with dynamic web elements.
 
 ## License
 
